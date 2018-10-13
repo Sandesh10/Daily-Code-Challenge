@@ -19,7 +19,7 @@ def decode(s):
     return count[l]       
                           
          
-print(decode('26123'))    
+print(decode('12'))    
 
 
 '''
