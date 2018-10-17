@@ -42,5 +42,7 @@ def flight_ordering(flight_list, start):
     places.append(current)    
     return places
 
-print(flight_ordering([('SFO', 'COM'), ('COM', 'YYZ')] ,'COM'))
-            
+##print(flight_ordering([('SFO', 'COM'), ('COM', 'YYZ')] ,'COM'))
+print(flight_ordering([('SFO', 'HKO'), ('YYZ', 'SFO'), ('YUL', 'YYZ'), ('HKO', 'ORD')]  ,'YUL'))
+print(flight_ordering([('A', 'B'), ('A', 'C'), ('B', 'C'), ('C', 'A')]  ,'A'))
+
